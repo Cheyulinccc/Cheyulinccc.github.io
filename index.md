@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+实验一 在Github上用Markdown创建技术博客
+一、实验目的
+1.熟悉Github网站
+2.掌握Markdown语法
+二、实验任务
+1.注册Github账号
+2.创建Gihub Pages repository
+3.发布第一篇博客
+4.学习Markdown
+5.利用Hexo生成博客并部署到Github
+三、实验步骤与结果
+1.本地配置Hexo
+①安装git
+②安装node
+③设置npm镜像为淘宝
+ npm config set registry http://registry.npm.taobao.org
+④安装hexo
+ nmp install -g hexo-cli
+⑤初始化站点
+ hexo init myhexo
+ cd myhexo
+ npm install
+⑥浏览本地站点
+ hexo server
 
-You can use the [editor on GitHub](https://github.com/Cheyulinccc/Cheyulinccc.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+2.在Github上部署hexo
+ ①在GitHub上新建respository,名称是用户名githu.io
+ ②修改配置文件_config.ym的deploy部分，注意空格
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+3.部署到Github Page
+ ①开通Github账号
+ ②创建一个respository，名称必须是——用户名.github.io
+ ③修改配置文件——-config.yml
+ 
 
-### Markdown
+4.新建博客
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Cheyulinccc/Cheyulinccc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+四、实验小结
+通过这次的学习，让我们初次接触到了博客，学会了如何利用Hexo搭建自己的博客系统，并且熟悉了Github网站。还学习了MakeDown编辑器，利用MakeDown编写文本。
